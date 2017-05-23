@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding-bottom: 20px; }
+
+.navbar {
+  margin: 0;
+  padding: 0; }
+  .navbar .nav li a {
+    color: #333;
+    transition: .3s ease-in-out; }
+    .navbar .nav li a:hover {
+      color: seagreen; }
+  .navbar .navbar-brand {
+    width: 100px;
+    height: 100px; }
+
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  min-height: 350px;
+  height: auto;
+  width: 100%;
+  background: url("../images/laptop-notebook.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .jumbotron .social-bar {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    bottom: 20%;
+    left: 0; }
+    .jumbotron .social-bar .banner-social {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      .jumbotron .social-bar .banner-social li {
+        display: inline;
+        padding: 2em; }
+        .jumbotron .social-bar .banner-social li a {
+          color: #fff;
+          font-size: 20px;
+          transition: .3s ease-in-out; }
+          .jumbotron .social-bar .banner-social li a:hover {
+            color: seagreen; }
+  .jumbotron h1 {
+    padding-top: 65px;
+    font-size: 80px;
+    font-family: 'Anton', 'Roboto', Arial, sans-serif; }
+
+#marketing {
+  text-align: center;
+  padding-top: 50px; }
+  #marketing .sub-title {
+    padding: 10px 0; }
+  #marketing img {
+    width: 100px;
+    height: auto;
+    padding: 5px 0; }
+
+.sm-banner {
+  background: #333;
+  text-align: center; }
+  .sm-banner p {
+    padding: 10px;
+    color: #fff; }
+
+#marketing-cont {
+  padding-top: 50px;
+  text-align: center; }
+  #marketing-cont #news-menu {
+    list-style-type: none; }
+
+.lg-banner {
+  height: 300px;
+  width: 100%;
+  background: url("../images/tabletandcoffee.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+#services {
+  padding-top: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
